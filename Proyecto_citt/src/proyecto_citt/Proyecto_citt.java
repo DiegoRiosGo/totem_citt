@@ -4,6 +4,8 @@
  */
 package proyecto_citt;
 
+import proyecto_citt.vista.Menu;
+
 /**
  *
  * @author diego
@@ -14,7 +16,7 @@ public class Proyecto_citt {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+         new Menu().setVisible(true);
     }
     
 }
