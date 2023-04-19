@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package com.mycompany.totem_citt;
+package com.mycompany.vista;
 
 /**
  *
@@ -37,7 +37,7 @@ public class Totem_Piso_3 extends javax.swing.JFrame {
         setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().setLayout(new javax.swing.OverlayLayout(getContentPane()));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/totem_citt/BODY.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/vista/BODY.png"))); // NOI18N
         jLabel5.setText("jLabel5");
         getContentPane().add(jLabel5);
         getContentPane().add(jScrollBar1);

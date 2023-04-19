@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package com.mycompany.totem_citt;
+package com.mycompany.vista;
 
 /**
  *
@@ -36,7 +36,6 @@ public class Totem_Piso_1 extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(768, 1360));
         setResizable(false);
         setSize(new java.awt.Dimension(768, 1360));
 
@@ -76,7 +75,7 @@ public class Totem_Piso_1 extends javax.swing.JFrame {
                 .addContainerGap(59, Short.MAX_VALUE))
         );
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/totem_citt/BODY.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/vista/BODY.png"))); // NOI18N
         jLabel4.setText("jLabel4");
 
         jLabel2.setText("Busca tu sala");

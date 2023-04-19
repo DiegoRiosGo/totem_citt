@@ -2,7 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.totem_citt;
+package com.mycompany.totem_citt.prueba;
+
+import com.mycompany.vista.Totem_Visual;
+
 
 /**
  *
@@ -12,6 +15,6 @@ public class Totem_CITT {
 
     public static void main(String[] args) 
     {
-        
+      new Totem_Visual().setVisible(true);
     }
 }

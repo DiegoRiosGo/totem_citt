@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package com.mycompany.totem_citt;
+package com.mycompany.vista;
 
 /**
  *
  * @author pc3
  */
-public class Totem_Piso_4 extends javax.swing.JFrame {
+public class Totem_Piso_5 extends javax.swing.JFrame {
 
     /**
-     * Creates new form Totem_Piso_4
+     * Creates new form Totem_Piso_5
      */
-    public Totem_Piso_4() {
+    public Totem_Piso_5() {
         initComponents();
     }
 
@@ -33,10 +33,9 @@ public class Totem_Piso_4 extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(768, 1360));
         setSize(new java.awt.Dimension(768, 1360));
 
-        jLabel1.setText("Cuatro Piso");
+        jLabel1.setText("Qinto Piso");
 
         jLabel2.setText("Busca tu sala");
 
@@ -44,7 +43,7 @@ public class Totem_Piso_4 extends javax.swing.JFrame {
 
         jButton1.setText("VOLVER ATRÁS");
 
-        jButton2.setText("INICIO");
+        jButton2.setText("INCIO");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -53,24 +52,24 @@ public class Totem_Piso_4 extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(162, 162, 162)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(154, 154, 154)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel2)
                             .addComponent(jLabel1)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(129, 129, 129)
+                        .addGap(131, 131, 131)
                         .addComponent(jLabel3))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(52, 52, 52)
+                        .addGap(45, 45, 45)
                         .addComponent(jButton1)
-                        .addGap(60, 60, 60)
+                        .addGap(58, 58, 58)
                         .addComponent(jButton2)))
                 .addContainerGap(374, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(17, 17, 17)
+                .addGap(12, 12, 12)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel2)
@@ -80,7 +79,7 @@ public class Totem_Piso_4 extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2))
-                .addGap(50, 50, 50))
+                .addGap(44, 44, 44))
         );
 
         pack();
@@ -103,20 +102,20 @@ public class Totem_Piso_4 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Totem_Piso_4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Totem_Piso_5.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Totem_Piso_4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Totem_Piso_5.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Totem_Piso_4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Totem_Piso_5.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Totem_Piso_4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Totem_Piso_5.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Totem_Piso_4().setVisible(true);
+                new Totem_Piso_5().setVisible(true);
             }
         });
     }
