@@ -4,6 +4,23 @@
  */
 package proyecto_citt.vista;
 
+import proyecto_citt.vista.totem_piso3.CITT;
+import proyecto_citt.vista.totem_piso3.THW1;
+import proyecto_citt.vista.totem_piso3.TR1;
+import proyecto_citt.vista.totem_piso3.sala301;
+import proyecto_citt.vista.totem_piso3.sala302;
+import proyecto_citt.vista.totem_piso3.sala303;
+import proyecto_citt.vista.totem_piso3.sala304;
+import proyecto_citt.vista.totem_piso3.sala305;
+import proyecto_citt.vista.totem_piso3.sala306;
+import proyecto_citt.vista.totem_piso3.sala307;
+import proyecto_citt.vista.totem_piso3.sala308;
+import proyecto_citt.vista.totem_piso3.sala309;
+import proyecto_citt.vista.totem_piso3.sala310;
+import proyecto_citt.vista.totem_piso3.sala311;
+import proyecto_citt.vista.totem_piso3.sala312;
+import proyecto_citt.vista.totem_piso3.sala_CITT;
+
 /**
  *
  * @author jaria
@@ -29,29 +46,28 @@ public class Piso_3 extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
+        btn_305 = new javax.swing.JButton();
+        btn_304 = new javax.swing.JButton();
+        btn_303 = new javax.swing.JButton();
+        btn_302 = new javax.swing.JButton();
+        btn_301 = new javax.swing.JButton();
+        btn_306 = new javax.swing.JButton();
+        btn_307 = new javax.swing.JButton();
+        btn_308 = new javax.swing.JButton();
+        btn_309 = new javax.swing.JButton();
+        btn_310 = new javax.swing.JButton();
+        btn_311 = new javax.swing.JButton();
+        btn_sla_citt = new javax.swing.JButton();
+        btn_citt = new javax.swing.JButton();
+        btn_312 = new javax.swing.JButton();
+        btn_thw1 = new javax.swing.JButton();
+        btn_tr1 = new javax.swing.JButton();
         jButton17 = new javax.swing.JButton();
         jButton18 = new javax.swing.JButton();
         jButton19 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        jButton21 = new javax.swing.JButton();
+        btn_inicio = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -66,58 +82,133 @@ public class Piso_3 extends javax.swing.JFrame {
         jLabel2.setText("Selecciona tu Sala");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(301, 66, 103, -1));
 
-        jButton1.setText("305");
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 94, -1, -1));
-
-        jButton2.setText("304");
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(408, 94, -1, -1));
-
-        jButton3.setText("303");
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(486, 94, -1, -1));
-
-        jButton4.setText("302");
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(564, 94, -1, -1));
-
-        jButton5.setText("301");
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(642, 94, -1, -1));
-
-        jButton6.setText("306");
-        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 200, -1, -1));
-
-        jButton7.setText("307");
-        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 200, -1, -1));
-
-        jButton8.setText("308");
-        jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, -1, -1));
-
-        jButton9.setText("309");
-        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 320, -1, -1));
-
-        jButton10.setText("310");
-        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 320, -1, -1));
-
-        jButton11.setText("311");
-        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 320, -1, -1));
-
-        jButton12.setText("Sala CITT");
-        jButton12.addActionListener(new java.awt.event.ActionListener() {
+        btn_305.setText("305");
+        btn_305.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton12ActionPerformed(evt);
+                btn_305ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 420, -1, -1));
+        jPanel1.add(btn_305, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 94, -1, -1));
 
-        jButton13.setText("CITT");
-        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 420, -1, -1));
+        btn_304.setText("304");
+        btn_304.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_304ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_304, new org.netbeans.lib.awtextra.AbsoluteConstraints(408, 94, -1, -1));
 
-        jButton14.setText("312");
-        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 420, -1, -1));
+        btn_303.setText("303");
+        btn_303.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_303ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_303, new org.netbeans.lib.awtextra.AbsoluteConstraints(486, 94, -1, -1));
 
-        jButton15.setText("315");
-        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 420, -1, -1));
+        btn_302.setText("302");
+        btn_302.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_302ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_302, new org.netbeans.lib.awtextra.AbsoluteConstraints(564, 94, -1, -1));
 
-        jButton16.setText("316");
-        jPanel1.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 420, -1, -1));
+        btn_301.setText("301");
+        btn_301.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_301ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_301, new org.netbeans.lib.awtextra.AbsoluteConstraints(642, 94, -1, -1));
+
+        btn_306.setText("306");
+        btn_306.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_306ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_306, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 200, -1, -1));
+
+        btn_307.setText("307");
+        btn_307.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_307ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_307, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 200, -1, -1));
+
+        btn_308.setText("308");
+        btn_308.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_308ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_308, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, -1, -1));
+
+        btn_309.setText("309");
+        btn_309.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_309ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_309, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 320, -1, -1));
+
+        btn_310.setText("310");
+        btn_310.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_310ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_310, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 320, -1, -1));
+
+        btn_311.setText("311");
+        btn_311.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_311ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_311, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 320, -1, -1));
+
+        btn_sla_citt.setText("Sala CITT");
+        btn_sla_citt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_sla_cittActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_sla_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 420, -1, -1));
+
+        btn_citt.setText("CITT");
+        btn_citt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_cittActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 420, -1, -1));
+
+        btn_312.setText("312");
+        btn_312.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_312ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_312, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 420, -1, -1));
+
+        btn_thw1.setText("THW-1");
+        btn_thw1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_thw1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_thw1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 420, -1, -1));
+
+        btn_tr1.setText("TR-1");
+        btn_tr1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_tr1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_tr1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 420, -1, -1));
 
         jButton17.setText("Centro de Copiado");
         jPanel1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 94, -1, -1));
@@ -128,17 +219,19 @@ public class Piso_3 extends javax.swing.JFrame {
         jButton19.setText("Departamento Administrativo");
         jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, 110));
 
-        jButton20.setText("Volver Atras");
-        jPanel1.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 490, 110, 60));
-
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/ASC.png"))); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 160, -1, 70));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/BATH.png"))); // NOI18N
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 260, -1, -1));
 
-        jButton21.setText("Inicio");
-        jPanel1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 480, 100, 70));
+        btn_inicio.setText("Inicio");
+        btn_inicio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_inicioActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 480, 100, 70));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME.png"))); // NOI18N
         jLabel4.setText("jLabel4");
@@ -162,9 +255,90 @@ public class Piso_3 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton12ActionPerformed
+    private void btn_sla_cittActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_sla_cittActionPerformed
+        new sala_CITT().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_sla_cittActionPerformed
+
+    private void btn_301ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_301ActionPerformed
+        new sala301().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_301ActionPerformed
+
+    private void btn_302ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_302ActionPerformed
+        new sala302().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_302ActionPerformed
+
+    private void btn_303ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_303ActionPerformed
+        new sala303().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_303ActionPerformed
+
+    private void btn_304ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_304ActionPerformed
+        new sala304().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_304ActionPerformed
+
+    private void btn_305ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_305ActionPerformed
+        new sala305().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_305ActionPerformed
+
+    private void btn_306ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_306ActionPerformed
+        new sala306().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_306ActionPerformed
+
+    private void btn_307ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_307ActionPerformed
+        new sala307().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_307ActionPerformed
+
+    private void btn_308ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_308ActionPerformed
+        new sala308().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_308ActionPerformed
+
+    private void btn_309ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_309ActionPerformed
+        new sala309().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_309ActionPerformed
+
+    private void btn_310ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_310ActionPerformed
+        new sala310().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_310ActionPerformed
+
+    private void btn_311ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_311ActionPerformed
+        new sala311().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_311ActionPerformed
+
+    private void btn_312ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_312ActionPerformed
+        new sala312().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_312ActionPerformed
+
+    private void btn_cittActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_cittActionPerformed
+        new CITT().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_cittActionPerformed
+
+    private void btn_thw1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_thw1ActionPerformed
+        new THW1().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_thw1ActionPerformed
+
+    private void btn_tr1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_tr1ActionPerformed
+        new TR1().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_tr1ActionPerformed
+
+    private void btn_inicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_inicioActionPerformed
+        new Menu().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_inicioActionPerformed
 
     /**
      * @param args the command line arguments
@@ -202,27 +376,26 @@ public class Piso_3 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
+    private javax.swing.JButton btn_301;
+    private javax.swing.JButton btn_302;
+    private javax.swing.JButton btn_303;
+    private javax.swing.JButton btn_304;
+    private javax.swing.JButton btn_305;
+    private javax.swing.JButton btn_306;
+    private javax.swing.JButton btn_307;
+    private javax.swing.JButton btn_308;
+    private javax.swing.JButton btn_309;
+    private javax.swing.JButton btn_310;
+    private javax.swing.JButton btn_311;
+    private javax.swing.JButton btn_312;
+    private javax.swing.JButton btn_citt;
+    private javax.swing.JButton btn_inicio;
+    private javax.swing.JButton btn_sla_citt;
+    private javax.swing.JButton btn_thw1;
+    private javax.swing.JButton btn_tr1;
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
