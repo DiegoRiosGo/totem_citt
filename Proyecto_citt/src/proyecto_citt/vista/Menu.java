@@ -36,7 +36,7 @@ public class Menu extends javax.swing.JFrame {
         btn_3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
         jLabel3.setText("jLabel3");
@@ -47,47 +47,65 @@ public class Menu extends javax.swing.JFrame {
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jButton2.setBackground(new java.awt.Color(94, 90, 92));
+        jButton2.setFont(new java.awt.Font("Segoe UI", 0, 128)); // NOI18N
         jButton2.setText("1");
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 190, 140, 140));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 410, 220, 220));
 
-        jLabel2.setText("Selecciona piso");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 60, -1, -1));
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 85)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Seleccione su");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 160, -1, -1));
 
-        jLabel1.setText("Menu Sede");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 30, -1, -1));
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 85)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Menú Sede");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 20, -1, -1));
 
+        jButton6.setBackground(new java.awt.Color(94, 90, 92));
+        jButton6.setFont(new java.awt.Font("Segoe UI", 0, 128)); // NOI18N
         jButton6.setText("2");
-        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 190, 140, 140));
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 410, 220, 220));
 
+        jButton3.setBackground(new java.awt.Color(94, 90, 92));
+        jButton3.setFont(new java.awt.Font("Segoe UI", 0, 128)); // NOI18N
         jButton3.setText("4");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 440, 140, 140));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 690, 220, 220));
 
+        btn_3.setBackground(new java.awt.Color(94, 90, 92));
+        btn_3.setFont(new java.awt.Font("Segoe UI", 0, 128)); // NOI18N
         btn_3.setText("3");
         btn_3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_3ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 440, 140, 140));
+        jPanel1.add(btn_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 690, 220, 220));
 
+        jButton4.setBackground(new java.awt.Color(94, 90, 92));
+        jButton4.setFont(new java.awt.Font("Segoe UI", 0, 128)); // NOI18N
         jButton4.setText("5");
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 670, 140, 140));
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 970, 220, 220));
 
+        jButton5.setBackground(new java.awt.Color(94, 90, 92));
+        jButton5.setFont(new java.awt.Font("Segoe UI", 0, 128)); // NOI18N
         jButton5.setText("6");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 670, 140, 140));
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 970, 220, 220));
 
-        jButton8.setText("Jaju");
-        jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 990, -1, -1));
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 85)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("piso a buscar");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 260, 500, 90));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME.png"))); // NOI18N
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, -1));
@@ -152,11 +170,11 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
