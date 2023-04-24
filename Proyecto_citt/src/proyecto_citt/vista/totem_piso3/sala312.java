@@ -29,10 +29,10 @@ public class sala312 extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         jButton20 = new javax.swing.JButton();
         jButton21 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -41,17 +41,13 @@ public class sala312 extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(720, 1280));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jLabel1.setText("Sala 312");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 100, 130, 50));
-
-        jButton20.setText("Volver Atras");
+        jButton20.setText("Volver Atrás");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton20ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 140, 110, 60));
+        jPanel1.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 980, 110, 70));
 
         jButton21.setText("Inicio");
         jButton21.addActionListener(new java.awt.event.ActionListener() {
@@ -59,10 +55,15 @@ public class sala312 extends javax.swing.JFrame {
                 jButton21ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 90, 100, 70));
+        jPanel1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 980, 110, 70));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/img_piso3/sala TRI1-1.png"))); // NOI18N
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 230, -1, -1));
+
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 85)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Sala 312");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 110, 330, 80));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME.png"))); // NOI18N
         jLabel4.setText("jLabel4");
@@ -141,7 +142,7 @@ public class sala312 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;

@@ -68,6 +68,7 @@ public class Piso_3 extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         btn_inicio = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -76,11 +77,16 @@ public class Piso_3 extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(720, 1280));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 85)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(51, 180, 154));
         jLabel1.setText("Piso 3");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(331, 38, 37, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 90, 230, -1));
 
-        jLabel2.setText("Selecciona tu Sala");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(301, 66, 103, -1));
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 52)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Presione la sala que desea ver");
+        jLabel2.setDoubleBuffered(true);
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, 700, 80));
 
         btn_305.setText("305");
         btn_305.addActionListener(new java.awt.event.ActionListener() {
@@ -88,7 +94,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_305ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_305, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 94, -1, -1));
+        jPanel1.add(btn_305, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 540, -1, 50));
 
         btn_304.setText("304");
         btn_304.addActionListener(new java.awt.event.ActionListener() {
@@ -96,7 +102,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_304ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_304, new org.netbeans.lib.awtextra.AbsoluteConstraints(408, 94, -1, -1));
+        jPanel1.add(btn_304, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 540, -1, 50));
 
         btn_303.setText("303");
         btn_303.addActionListener(new java.awt.event.ActionListener() {
@@ -104,7 +110,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_303ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_303, new org.netbeans.lib.awtextra.AbsoluteConstraints(486, 94, -1, -1));
+        jPanel1.add(btn_303, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 540, -1, 50));
 
         btn_302.setText("302");
         btn_302.addActionListener(new java.awt.event.ActionListener() {
@@ -112,7 +118,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_302ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_302, new org.netbeans.lib.awtextra.AbsoluteConstraints(564, 94, -1, -1));
+        jPanel1.add(btn_302, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 540, -1, 50));
 
         btn_301.setText("301");
         btn_301.addActionListener(new java.awt.event.ActionListener() {
@@ -120,7 +126,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_301ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_301, new org.netbeans.lib.awtextra.AbsoluteConstraints(642, 94, -1, -1));
+        jPanel1.add(btn_301, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 540, -1, 50));
 
         btn_306.setText("306");
         btn_306.addActionListener(new java.awt.event.ActionListener() {
@@ -128,7 +134,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_306ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_306, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 200, -1, -1));
+        jPanel1.add(btn_306, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 670, -1, 50));
 
         btn_307.setText("307");
         btn_307.addActionListener(new java.awt.event.ActionListener() {
@@ -136,7 +142,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_307ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_307, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 200, -1, -1));
+        jPanel1.add(btn_307, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 670, -1, 50));
 
         btn_308.setText("308");
         btn_308.addActionListener(new java.awt.event.ActionListener() {
@@ -144,7 +150,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_308ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_308, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, -1, -1));
+        jPanel1.add(btn_308, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 670, -1, 50));
 
         btn_309.setText("309");
         btn_309.addActionListener(new java.awt.event.ActionListener() {
@@ -152,7 +158,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_309ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_309, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 320, -1, -1));
+        jPanel1.add(btn_309, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 820, -1, 50));
 
         btn_310.setText("310");
         btn_310.addActionListener(new java.awt.event.ActionListener() {
@@ -160,7 +166,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_310ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_310, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 320, -1, -1));
+        jPanel1.add(btn_310, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 820, -1, 50));
 
         btn_311.setText("311");
         btn_311.addActionListener(new java.awt.event.ActionListener() {
@@ -168,7 +174,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_311ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_311, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 320, -1, -1));
+        jPanel1.add(btn_311, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 820, -1, 50));
 
         btn_sla_citt.setText("Sala CITT");
         btn_sla_citt.addActionListener(new java.awt.event.ActionListener() {
@@ -176,7 +182,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_sla_cittActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_sla_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 420, -1, -1));
+        jPanel1.add(btn_sla_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 910, -1, 50));
 
         btn_citt.setText("CITT");
         btn_citt.addActionListener(new java.awt.event.ActionListener() {
@@ -184,7 +190,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_cittActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 420, -1, -1));
+        jPanel1.add(btn_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 910, -1, 50));
 
         btn_312.setText("312");
         btn_312.addActionListener(new java.awt.event.ActionListener() {
@@ -192,7 +198,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_312ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_312, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 420, -1, -1));
+        jPanel1.add(btn_312, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 910, -1, 50));
 
         btn_thw1.setText("THW-1");
         btn_thw1.addActionListener(new java.awt.event.ActionListener() {
@@ -200,7 +206,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_thw1ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_thw1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 420, -1, -1));
+        jPanel1.add(btn_thw1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 910, -1, 50));
 
         btn_tr1.setText("TR-1");
         btn_tr1.addActionListener(new java.awt.event.ActionListener() {
@@ -208,22 +214,22 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_tr1ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_tr1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 420, -1, -1));
+        jPanel1.add(btn_tr1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 910, -1, 50));
 
         jButton17.setText("Centro de Copiado");
-        jPanel1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 94, -1, -1));
+        jPanel1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 540, -1, 110));
 
-        jButton18.setText("Centro de Copiado");
-        jPanel1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 135, -1, 140));
+        jButton18.setText("Direccion Sede");
+        jPanel1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 680, 130, 140));
 
         jButton19.setText("Departamento Administrativo");
-        jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, 110));
+        jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 850, -1, 110));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/ASC.png"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 160, -1, 70));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 650, -1, 70));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/BATH.png"))); // NOI18N
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 260, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 770, -1, -1));
 
         btn_inicio.setText("Inicio");
         btn_inicio.addActionListener(new java.awt.event.ActionListener() {
@@ -231,7 +237,10 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_inicioActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 480, 100, 70));
+        jPanel1.add(btn_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 1020, 130, 90));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/PISO 3.png"))); // NOI18N
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 470, -1, 530));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME.png"))); // NOI18N
         jLabel4.setText("jLabel4");
@@ -401,6 +410,7 @@ public class Piso_3 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
