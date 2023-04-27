@@ -69,6 +69,7 @@ public class Piso_3 extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         btn_inicio = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -77,170 +78,241 @@ public class Piso_3 extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(720, 1280));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 85)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(51, 180, 154));
-        jLabel1.setText("Piso 3");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 90, 230, -1));
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 85)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("TERCER PISO");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 105, 559, 100));
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 52)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Presione la sala que desea ver");
+        jLabel2.setText("SELECCIONA TU SALA");
         jLabel2.setDoubleBuffered(true);
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, 700, 80));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 286, 500, 56));
 
+        btn_305.setBackground(new java.awt.Color(51, 180, 154));
+        btn_305.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_305.setForeground(new java.awt.Color(0, 50, 83));
         btn_305.setText("305");
         btn_305.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_305ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_305, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 540, -1, 50));
+        jPanel1.add(btn_305, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 410, 64, 101));
 
+        btn_304.setBackground(new java.awt.Color(51, 180, 154));
+        btn_304.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_304.setForeground(new java.awt.Color(0, 50, 83));
         btn_304.setText("304");
         btn_304.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_304ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_304, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 540, -1, 50));
+        jPanel1.add(btn_304, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 410, 64, 101));
 
+        btn_303.setBackground(new java.awt.Color(51, 180, 154));
+        btn_303.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_303.setForeground(new java.awt.Color(0, 50, 83));
         btn_303.setText("303");
         btn_303.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_303ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_303, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 540, -1, 50));
+        jPanel1.add(btn_303, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 410, 64, 101));
 
+        btn_302.setBackground(new java.awt.Color(51, 180, 154));
+        btn_302.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_302.setForeground(new java.awt.Color(0, 50, 83));
         btn_302.setText("302");
         btn_302.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_302ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_302, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 540, -1, 50));
+        jPanel1.add(btn_302, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 410, 64, 101));
 
+        btn_301.setBackground(new java.awt.Color(51, 180, 154));
+        btn_301.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_301.setForeground(new java.awt.Color(0, 50, 83));
         btn_301.setText("301");
         btn_301.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_301ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_301, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 540, -1, 50));
+        jPanel1.add(btn_301, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 410, 64, 101));
 
+        btn_306.setBackground(new java.awt.Color(51, 180, 154));
+        btn_306.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_306.setForeground(new java.awt.Color(0, 50, 83));
         btn_306.setText("306");
         btn_306.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_306ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_306, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 670, -1, 50));
+        jPanel1.add(btn_306, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 550, 64, 101));
 
+        btn_307.setBackground(new java.awt.Color(51, 180, 154));
+        btn_307.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_307.setForeground(new java.awt.Color(0, 50, 83));
         btn_307.setText("307");
         btn_307.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_307ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_307, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 670, -1, 50));
+        jPanel1.add(btn_307, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 550, 64, 101));
 
+        btn_308.setBackground(new java.awt.Color(51, 180, 154));
+        btn_308.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_308.setForeground(new java.awt.Color(0, 50, 83));
         btn_308.setText("308");
         btn_308.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_308ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_308, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 670, -1, 50));
+        jPanel1.add(btn_308, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 550, 64, 101));
 
+        btn_309.setBackground(new java.awt.Color(51, 180, 154));
+        btn_309.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_309.setForeground(new java.awt.Color(0, 50, 83));
         btn_309.setText("309");
         btn_309.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_309ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_309, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 820, -1, 50));
+        jPanel1.add(btn_309, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 690, 64, 101));
 
+        btn_310.setBackground(new java.awt.Color(51, 180, 154));
+        btn_310.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_310.setForeground(new java.awt.Color(0, 50, 83));
         btn_310.setText("310");
         btn_310.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_310ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_310, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 820, -1, 50));
+        jPanel1.add(btn_310, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 690, 64, 101));
 
+        btn_311.setBackground(new java.awt.Color(51, 180, 154));
+        btn_311.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_311.setForeground(new java.awt.Color(0, 50, 83));
         btn_311.setText("311");
         btn_311.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_311ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_311, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 820, -1, 50));
+        jPanel1.add(btn_311, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 690, 64, 101));
 
+        btn_sla_citt.setBackground(new java.awt.Color(51, 180, 154));
+        btn_sla_citt.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_sla_citt.setForeground(new java.awt.Color(0, 50, 83));
         btn_sla_citt.setText("Sala CITT");
         btn_sla_citt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_sla_cittActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_sla_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 910, -1, 50));
+        jPanel1.add(btn_sla_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 830, 64, 101));
 
+        btn_citt.setBackground(new java.awt.Color(51, 180, 154));
+        btn_citt.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_citt.setForeground(new java.awt.Color(0, 50, 83));
         btn_citt.setText("CITT");
         btn_citt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_cittActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 910, -1, 50));
+        jPanel1.add(btn_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 830, 64, 101));
 
+        btn_312.setBackground(new java.awt.Color(51, 180, 154));
+        btn_312.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_312.setForeground(new java.awt.Color(0, 50, 83));
         btn_312.setText("312");
         btn_312.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_312ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_312, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 910, -1, 50));
+        jPanel1.add(btn_312, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 830, 64, 101));
 
+        btn_thw1.setBackground(new java.awt.Color(51, 180, 154));
+        btn_thw1.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_thw1.setForeground(new java.awt.Color(0, 50, 83));
         btn_thw1.setText("THW-1");
         btn_thw1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_thw1ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_thw1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 910, -1, 50));
+        jPanel1.add(btn_thw1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 830, 64, 101));
 
+        btn_tr1.setBackground(new java.awt.Color(51, 180, 154));
+        btn_tr1.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_tr1.setForeground(new java.awt.Color(0, 50, 83));
         btn_tr1.setText("TR-1");
         btn_tr1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_tr1ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_tr1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 910, -1, 50));
+        jPanel1.add(btn_tr1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 830, 64, 101));
 
+        jButton17.setBackground(new java.awt.Color(51, 180, 154));
+        jButton17.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jButton17.setForeground(new java.awt.Color(0, 50, 83));
         jButton17.setText("Centro de Copiado");
-        jPanel1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 540, -1, 110));
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 410, 120, 101));
 
+        jButton18.setBackground(new java.awt.Color(51, 180, 154));
+        jButton18.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jButton18.setForeground(new java.awt.Color(0, 50, 83));
         jButton18.setText("Direccion Sede");
-        jPanel1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 680, 130, 140));
+        jPanel1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 550, 120, 244));
 
+        jButton19.setBackground(new java.awt.Color(51, 180, 154));
+        jButton19.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jButton19.setForeground(new java.awt.Color(0, 50, 83));
         jButton19.setText("Departamento Administrativo");
-        jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 850, -1, 110));
+        jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 820, 120, 115));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/ASC.png"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 650, -1, 70));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 550, 64, 101));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/BATH.png"))); // NOI18N
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 770, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 690, 64, 101));
 
+        btn_inicio.setBackground(new java.awt.Color(94, 90, 92));
+        btn_inicio.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_inicio.setForeground(new java.awt.Color(255, 255, 255));
         btn_inicio.setText("Inicio");
         btn_inicio.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_inicioActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 1020, 130, 90));
+        jPanel1.add(btn_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 980, 130, 90));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/PISO 3.png"))); // NOI18N
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 470, -1, 530));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 387, 628, 567));
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 52)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(51, 180, 154));
+        jLabel7.setText("Busca tu sala");
+        jLabel7.setDoubleBuffered(true);
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(177, 196, -1, 72));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME.png"))); // NOI18N
         jLabel4.setText("jLabel4");
@@ -349,6 +421,10 @@ public class Piso_3 extends javax.swing.JFrame {
         this.setVisible(false);
     }//GEN-LAST:event_btn_inicioActionPerformed
 
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton17ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -411,6 +487,7 @@ public class Piso_3 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

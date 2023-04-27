@@ -41,29 +41,35 @@ public class sala309 extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(720, 1280));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jButton20.setBackground(new java.awt.Color(94, 90, 92));
+        jButton20.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jButton20.setForeground(new java.awt.Color(255, 255, 255));
         jButton20.setText("Volver Atrás");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton20ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 980, 110, 70));
+        jPanel1.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 980, 220, 56));
 
+        jButton21.setBackground(new java.awt.Color(94, 90, 92));
+        jButton21.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jButton21.setForeground(new java.awt.Color(255, 255, 255));
         jButton21.setText("Inicio");
         jButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton21ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 980, 110, 70));
+        jPanel1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 980, 220, 56));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/img_piso3/sala309-1.png"))); // NOI18N
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 230, -1, -1));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 270, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 85)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Sala 305");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 90, 330, 80));
+        jLabel2.setText("    Sala 305");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 105, 506, 100));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME.png"))); // NOI18N
         jLabel4.setText("jLabel4");

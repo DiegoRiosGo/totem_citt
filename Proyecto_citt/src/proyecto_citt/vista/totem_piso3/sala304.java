@@ -41,29 +41,35 @@ public class sala304 extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(720, 1280));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        btn_atras.setBackground(new java.awt.Color(94, 90, 92));
+        btn_atras.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_atras.setForeground(new java.awt.Color(255, 255, 255));
         btn_atras.setText("Volver Atrás");
         btn_atras.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_atrasActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_atras, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 980, 110, 70));
+        jPanel1.add(btn_atras, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 980, 220, 52));
 
+        btn_inicio.setBackground(new java.awt.Color(94, 90, 92));
+        btn_inicio.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_inicio.setForeground(new java.awt.Color(255, 255, 255));
         btn_inicio.setText("Inicio");
         btn_inicio.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_inicioActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 980, 110, 70));
+        jPanel1.add(btn_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 980, 220, 52));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/img_piso3/sala 304-1.png"))); // NOI18N
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 230, -1, -1));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(109, 279, -1, -1));
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 85)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 85)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Sala 304");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 90, 330, 80));
+        jLabel2.setText("    Sala 304");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 105, 556, 100));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME.png"))); // NOI18N
         jLabel4.setText("jLabel4");

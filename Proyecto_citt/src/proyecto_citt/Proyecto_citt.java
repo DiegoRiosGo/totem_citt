@@ -17,6 +17,7 @@ public class Proyecto_citt {
      */
     public static void main(String[] args) {
          new Menu().setVisible(true);
+         
     }
     
 }
