@@ -73,6 +73,7 @@ public class Piso_3 extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
         setSize(new java.awt.Dimension(720, 1280));
 
         jPanel1.setPreferredSize(new java.awt.Dimension(720, 1280));
