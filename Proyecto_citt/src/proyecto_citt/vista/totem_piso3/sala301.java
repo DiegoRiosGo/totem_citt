@@ -17,6 +17,8 @@ public class sala301 extends javax.swing.JFrame {
      */
     public sala301() {
         initComponents();
+        this.setLocationRelativeTo(null);
+        this.setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
@@ -36,9 +38,15 @@ public class sala301 extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setSize(new java.awt.Dimension(720, 1280));
+        setMaximumSize(new java.awt.Dimension(768, 1360));
+        setMinimumSize(new java.awt.Dimension(768, 1360));
+        setUndecorated(true);
+        setPreferredSize(new java.awt.Dimension(768, 1360));
+        setSize(new java.awt.Dimension(768, 1360));
 
-        jPanel1.setPreferredSize(new java.awt.Dimension(720, 1280));
+        jPanel1.setMaximumSize(new java.awt.Dimension(768, 1360));
+        jPanel1.setMinimumSize(new java.awt.Dimension(768, 1360));
+        jPanel1.setPreferredSize(new java.awt.Dimension(768, 1360));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 85)); // NOI18N
@@ -71,9 +79,11 @@ public class sala301 extends javax.swing.JFrame {
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/img_piso3/sala 301-1.png"))); // NOI18N
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(109, 279, -1, -1));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME.png"))); // NOI18N
-        jLabel4.setText("jLabel4");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 1280));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME (1).png"))); // NOI18N
+        jLabel4.setMaximumSize(new java.awt.Dimension(768, 1360));
+        jLabel4.setMinimumSize(new java.awt.Dimension(768, 1360));
+        jLabel4.setPreferredSize(new java.awt.Dimension(768, 1360));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

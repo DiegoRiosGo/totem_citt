@@ -32,6 +32,8 @@ public class Piso_3 extends javax.swing.JFrame {
      */
     public Piso_3() {
         initComponents();
+        this.setLocationRelativeTo(null);
+        this.setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
@@ -73,22 +75,27 @@ public class Piso_3 extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(768, 1360));
+        setMinimumSize(new java.awt.Dimension(768, 1360));
         setUndecorated(true);
-        setSize(new java.awt.Dimension(720, 1280));
+        setPreferredSize(new java.awt.Dimension(768, 1360));
+        setSize(new java.awt.Dimension(768, 1360));
 
-        jPanel1.setPreferredSize(new java.awt.Dimension(720, 1280));
+        jPanel1.setMaximumSize(new java.awt.Dimension(768, 1360));
+        jPanel1.setMinimumSize(new java.awt.Dimension(768, 1360));
+        jPanel1.setPreferredSize(new java.awt.Dimension(768, 1360));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 85)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("TERCER PISO");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 105, 559, 100));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 100, 559, 100));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("SELECCIONA TU SALA");
         jLabel2.setDoubleBuffered(true);
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 286, 500, 56));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, 500, 56));
 
         btn_305.setBackground(new java.awt.Color(51, 180, 154));
         btn_305.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -99,7 +106,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_305ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_305, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 410, 64, 101));
+        jPanel1.add(btn_305, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 410, 64, 101));
 
         btn_304.setBackground(new java.awt.Color(51, 180, 154));
         btn_304.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -110,7 +117,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_304ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_304, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 410, 64, 101));
+        jPanel1.add(btn_304, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 410, 64, 101));
 
         btn_303.setBackground(new java.awt.Color(51, 180, 154));
         btn_303.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -121,7 +128,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_303ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_303, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 410, 64, 101));
+        jPanel1.add(btn_303, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 410, 64, 101));
 
         btn_302.setBackground(new java.awt.Color(51, 180, 154));
         btn_302.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -132,7 +139,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_302ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_302, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 410, 64, 101));
+        jPanel1.add(btn_302, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 410, 64, 101));
 
         btn_301.setBackground(new java.awt.Color(51, 180, 154));
         btn_301.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -143,7 +150,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_301ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_301, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 410, 64, 101));
+        jPanel1.add(btn_301, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 410, 64, 101));
 
         btn_306.setBackground(new java.awt.Color(51, 180, 154));
         btn_306.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -154,7 +161,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_306ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_306, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 550, 64, 101));
+        jPanel1.add(btn_306, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 550, 64, 101));
 
         btn_307.setBackground(new java.awt.Color(51, 180, 154));
         btn_307.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -165,7 +172,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_307ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_307, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 550, 64, 101));
+        jPanel1.add(btn_307, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 550, 64, 101));
 
         btn_308.setBackground(new java.awt.Color(51, 180, 154));
         btn_308.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -176,7 +183,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_308ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_308, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 550, 64, 101));
+        jPanel1.add(btn_308, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 550, 64, 101));
 
         btn_309.setBackground(new java.awt.Color(51, 180, 154));
         btn_309.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -187,7 +194,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_309ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_309, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 690, 64, 101));
+        jPanel1.add(btn_309, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 690, 64, 101));
 
         btn_310.setBackground(new java.awt.Color(51, 180, 154));
         btn_310.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -198,7 +205,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_310ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_310, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 690, 64, 101));
+        jPanel1.add(btn_310, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 690, 64, 101));
 
         btn_311.setBackground(new java.awt.Color(51, 180, 154));
         btn_311.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -209,7 +216,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_311ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_311, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 690, 64, 101));
+        jPanel1.add(btn_311, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 690, 64, 101));
 
         btn_sla_citt.setBackground(new java.awt.Color(51, 180, 154));
         btn_sla_citt.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -220,7 +227,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_sla_cittActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_sla_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 830, 64, 101));
+        jPanel1.add(btn_sla_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 830, 64, 101));
 
         btn_citt.setBackground(new java.awt.Color(51, 180, 154));
         btn_citt.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -231,7 +238,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_cittActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 830, 64, 101));
+        jPanel1.add(btn_citt, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 830, 64, 101));
 
         btn_312.setBackground(new java.awt.Color(51, 180, 154));
         btn_312.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -242,7 +249,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_312ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_312, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 830, 64, 101));
+        jPanel1.add(btn_312, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 830, 64, 101));
 
         btn_thw1.setBackground(new java.awt.Color(51, 180, 154));
         btn_thw1.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -253,7 +260,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_thw1ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_thw1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 830, 64, 101));
+        jPanel1.add(btn_thw1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 830, 64, 101));
 
         btn_tr1.setBackground(new java.awt.Color(51, 180, 154));
         btn_tr1.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -264,7 +271,7 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_tr1ActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_tr1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 830, 64, 101));
+        jPanel1.add(btn_tr1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 830, 64, 101));
 
         jButton17.setBackground(new java.awt.Color(51, 180, 154));
         jButton17.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -290,13 +297,13 @@ public class Piso_3 extends javax.swing.JFrame {
         jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 820, 120, 115));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/ASC.png"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 550, 64, 101));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 550, 64, 101));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/BATH.png"))); // NOI18N
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 690, 64, 101));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 690, 64, 101));
 
         btn_inicio.setBackground(new java.awt.Color(94, 90, 92));
-        btn_inicio.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_inicio.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         btn_inicio.setForeground(new java.awt.Color(255, 255, 255));
         btn_inicio.setText("Inicio");
         btn_inicio.addActionListener(new java.awt.event.ActionListener() {
@@ -304,20 +311,22 @@ public class Piso_3 extends javax.swing.JFrame {
                 btn_inicioActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 980, 130, 90));
+        jPanel1.add(btn_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 990, 140, 100));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/PISO 3.png"))); // NOI18N
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 387, 628, 567));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/Frame 2.png"))); // NOI18N
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 390, 660, 580));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 52)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(51, 180, 154));
         jLabel7.setText("Busca tu sala");
         jLabel7.setDoubleBuffered(true);
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(177, 196, -1, 72));
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 200, -1, 72));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME.png"))); // NOI18N
-        jLabel4.setText("jLabel4");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 1280));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME (1).png"))); // NOI18N
+        jLabel4.setMaximumSize(new java.awt.Dimension(768, 1360));
+        jLabel4.setMinimumSize(new java.awt.Dimension(768, 1360));
+        jLabel4.setPreferredSize(new java.awt.Dimension(768, 1360));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

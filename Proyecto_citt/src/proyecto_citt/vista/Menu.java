@@ -45,25 +45,31 @@ public class Menu extends javax.swing.JFrame {
         jLabel3.setText("jLabel3");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(768, 1360));
+        setMinimumSize(new java.awt.Dimension(768, 1360));
         setUndecorated(true);
-        setSize(new java.awt.Dimension(720, 1280));
+        setPreferredSize(new java.awt.Dimension(768, 1360));
+        setSize(new java.awt.Dimension(768, 1360));
 
+        jPanel1.setMaximumSize(new java.awt.Dimension(768, 1360));
+        jPanel1.setMinimumSize(new java.awt.Dimension(768, 1360));
+        jPanel1.setPreferredSize(new java.awt.Dimension(768, 1360));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 52)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(51, 180, 154));
         jLabel2.setText(" Busca tu sala");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(177, 196, 367, 72));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 200, 367, 72));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 85)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText(" MAPA SEDE");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 105, -1, -1));
+        jLabel1.setText(" MAPA SEDE ");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 110, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("SELECCIONA TU PISO");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 260, 510, 90));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 260, 510, 90));
 
         jButton1.setBackground(new java.awt.Color(94, 90, 92));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 128)); // NOI18N
@@ -74,7 +80,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 373, 220, 220));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 380, 220, 220));
 
         jButton2.setBackground(new java.awt.Color(94, 90, 92));
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 128)); // NOI18N
@@ -85,7 +91,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(391, 369, 220, 220));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 370, 220, 220));
 
         jButton3.setBackground(new java.awt.Color(94, 90, 92));
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 128)); // NOI18N
@@ -96,7 +102,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 617, 220, 220));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 620, 220, 220));
 
         jButton4.setBackground(new java.awt.Color(94, 90, 92));
         jButton4.setFont(new java.awt.Font("Segoe UI", 1, 128)); // NOI18N
@@ -107,7 +113,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(391, 617, 220, 220));
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 620, 220, 220));
 
         jButton6.setBackground(new java.awt.Color(94, 90, 92));
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 128)); // NOI18N
@@ -118,7 +124,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(389, 861, 220, 220));
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 860, 220, 220));
 
         jButton5.setBackground(new java.awt.Color(94, 90, 92));
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 128)); // NOI18N
@@ -129,18 +135,22 @@ public class Menu extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 861, 220, 220));
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 860, 220, 220));
 
         jLabel4.setBackground(new java.awt.Color(0, 50, 83));
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 128)); // NOI18N
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME.png"))); // NOI18N
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, -1));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME (1).png"))); // NOI18N
+        jLabel4.setMaximumSize(new java.awt.Dimension(768, 1360));
+        jLabel4.setMinimumSize(new java.awt.Dimension(768, 1360));
+        jLabel4.setName(""); // NOI18N
+        jLabel4.setPreferredSize(new java.awt.Dimension(768, 1360));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 721, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

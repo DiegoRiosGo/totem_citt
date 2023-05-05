@@ -17,6 +17,8 @@ public class sala_CITT extends javax.swing.JFrame {
      */
     public sala_CITT() {
         initComponents();
+        this.setLocationRelativeTo(null);
+        this.setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
@@ -31,14 +33,21 @@ public class sala_CITT extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jButton20 = new javax.swing.JButton();
         jButton21 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setSize(new java.awt.Dimension(720, 1280));
+        setMaximumSize(new java.awt.Dimension(768, 1360));
+        setMinimumSize(new java.awt.Dimension(768, 1360));
+        setUndecorated(true);
+        setPreferredSize(new java.awt.Dimension(768, 1360));
+        setSize(new java.awt.Dimension(768, 1360));
 
-        jPanel1.setPreferredSize(new java.awt.Dimension(720, 1280));
+        jPanel1.setMaximumSize(new java.awt.Dimension(768, 1360));
+        jPanel1.setMinimumSize(new java.awt.Dimension(768, 1360));
+        jPanel1.setPreferredSize(new java.awt.Dimension(768, 1360));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton20.setBackground(new java.awt.Color(94, 90, 92));
@@ -63,17 +72,25 @@ public class sala_CITT extends javax.swing.JFrame {
         });
         jPanel1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 980, 220, 56));
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/WhatsApp Video 2023-05-05 at 3.05.27 PM.gif"))); // NOI18N
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 230, 360, 660));
+
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/img_piso3/sala CITT-1.png"))); // NOI18N
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(109, 279, -1, -1));
+        jLabel6.setMaximumSize(null);
+        jLabel6.setMinimumSize(null);
+        jLabel6.setPreferredSize(null);
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 480, 660));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 85)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("    Sala CITT");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 105, 556, 100));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME.png"))); // NOI18N
-        jLabel4.setText("jLabel4");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 1280));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME (1).png"))); // NOI18N
+        jLabel4.setMaximumSize(new java.awt.Dimension(768, 1360));
+        jLabel4.setMinimumSize(new java.awt.Dimension(768, 1360));
+        jLabel4.setPreferredSize(new java.awt.Dimension(768, 1360));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -148,6 +165,7 @@ public class sala_CITT extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel6;
