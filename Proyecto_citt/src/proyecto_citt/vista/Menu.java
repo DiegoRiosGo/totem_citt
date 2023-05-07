@@ -48,7 +48,6 @@ public class Menu extends javax.swing.JFrame {
         setMaximumSize(new java.awt.Dimension(768, 1360));
         setMinimumSize(new java.awt.Dimension(768, 1360));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(768, 1360));
         setSize(new java.awt.Dimension(768, 1360));
 
         jPanel1.setMaximumSize(new java.awt.Dimension(768, 1360));

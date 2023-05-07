@@ -4,6 +4,16 @@
  */
 package proyecto_citt.vista;
 
+import proyecto_citt.vista.totem_piso2.Biblioteca;
+import proyecto_citt.vista.totem_piso2.Capilla;
+import proyecto_citt.vista.totem_piso2.Comunicacion_extension;
+import proyecto_citt.vista.totem_piso2.Coordinacion_academica;
+import proyecto_citt.vista.totem_piso2.Directores_carrera;
+import proyecto_citt.vista.totem_piso2.Punto_estudiantil;
+import proyecto_citt.vista.totem_piso2.Sala_profesores;
+
+
+
 /**
  *
  * @author jaria
@@ -11,10 +21,12 @@ package proyecto_citt.vista;
 public class Piso_2 extends javax.swing.JFrame {
 
     /**
-     * Creates new form Piso_2
+     * Creates new form Piso_3
      */
     public Piso_2() {
         initComponents();
+        this.setLocationRelativeTo(null);
+        this.setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
@@ -26,21 +38,210 @@ public class Piso_2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        btn_305 = new javax.swing.JButton();
+        btn_304 = new javax.swing.JButton();
+        btn_311 = new javax.swing.JButton();
+        btn_tr1 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        btn_inicio = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(768, 1360));
+        setUndecorated(true);
+        setSize(new java.awt.Dimension(768, 1360));
+
+        jPanel1.setMaximumSize(new java.awt.Dimension(768, 1360));
+        jPanel1.setMinimumSize(new java.awt.Dimension(768, 1360));
+        jPanel1.setPreferredSize(new java.awt.Dimension(768, 1360));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 85)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("SEGUNDO PISO");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 630, 100));
+
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("SELECCIONA TU SALA");
+        jLabel2.setDoubleBuffered(true);
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, 500, 56));
+
+        btn_305.setBackground(new java.awt.Color(51, 180, 154));
+        btn_305.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_305.setForeground(new java.awt.Color(0, 50, 83));
+        btn_305.setText("Directores de Carrera");
+        btn_305.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_305ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_305, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 410, 190, 101));
+
+        btn_304.setBackground(new java.awt.Color(51, 180, 154));
+        btn_304.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_304.setForeground(new java.awt.Color(0, 50, 83));
+        btn_304.setText("Punto Estudiantil");
+        btn_304.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_304ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_304, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 410, 160, 101));
+
+        btn_311.setBackground(new java.awt.Color(51, 180, 154));
+        btn_311.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_311.setForeground(new java.awt.Color(0, 50, 83));
+        btn_311.setText("Biblioteca");
+        btn_311.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_311ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_311, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 551, 260, 240));
+
+        btn_tr1.setBackground(new java.awt.Color(51, 180, 154));
+        btn_tr1.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        btn_tr1.setForeground(new java.awt.Color(0, 50, 83));
+        btn_tr1.setText("Coordinación Academica");
+        btn_tr1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_tr1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_tr1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 820, 230, 110));
+
+        jButton17.setBackground(new java.awt.Color(51, 180, 154));
+        jButton17.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jButton17.setForeground(new java.awt.Color(0, 50, 83));
+        jButton17.setText("Capilla");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 410, 120, 101));
+
+        jButton18.setBackground(new java.awt.Color(51, 180, 154));
+        jButton18.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jButton18.setForeground(new java.awt.Color(0, 50, 83));
+        jButton18.setText("Sala de Profesores");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 550, -1, 244));
+
+        jButton19.setBackground(new java.awt.Color(51, 180, 154));
+        jButton19.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
+        jButton19.setForeground(new java.awt.Color(0, 50, 83));
+        jButton19.setText("Comunicación y Extensión");
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 820, 240, 115));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/ASC.png"))); // NOI18N
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 550, 64, 101));
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/BATH.png"))); // NOI18N
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 690, 64, 101));
+
+        btn_inicio.setBackground(new java.awt.Color(94, 90, 92));
+        btn_inicio.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        btn_inicio.setForeground(new java.awt.Color(255, 255, 255));
+        btn_inicio.setText("Inicio");
+        btn_inicio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_inicioActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 990, 140, 100));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/Frame 2.png"))); // NOI18N
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 390, 660, 580));
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 52)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(51, 180, 154));
+        jLabel7.setText("Busca tu sala");
+        jLabel7.setDoubleBuffered(true);
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 200, -1, 72));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyecto_citt/vista/Imagenes/HOME (1).png"))); // NOI18N
+        jLabel4.setMaximumSize(new java.awt.Dimension(768, 1360));
+        jLabel4.setMinimumSize(new java.awt.Dimension(768, 1360));
+        jLabel4.setPreferredSize(new java.awt.Dimension(768, 1360));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btn_304ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_304ActionPerformed
+        new Punto_estudiantil().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_304ActionPerformed
+
+    private void btn_305ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_305ActionPerformed
+        new Directores_carrera().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_305ActionPerformed
+
+    private void btn_311ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_311ActionPerformed
+        new Biblioteca().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_311ActionPerformed
+
+    private void btn_tr1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_tr1ActionPerformed
+        new Coordinacion_academica().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_tr1ActionPerformed
+
+    private void btn_inicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_inicioActionPerformed
+        new Menu().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btn_inicioActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        new Capilla().setVisible(true);
+        this.setVisible(false);        
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        new Sala_profesores().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        new Comunicacion_extension().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton19ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -68,6 +269,7 @@ public class Piso_2 extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Piso_2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+        //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -78,5 +280,21 @@ public class Piso_2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btn_304;
+    private javax.swing.JButton btn_305;
+    private javax.swing.JButton btn_311;
+    private javax.swing.JButton btn_inicio;
+    private javax.swing.JButton btn_tr1;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
